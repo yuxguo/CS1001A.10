@@ -3,7 +3,7 @@ title: 课程信息
 ---
 - 主讲教师: 唐建
 - 助教:
-    - 谢强
+    - [谢强](https://github.com/cabasky) (PB18061300), 邮箱: [ultrabioret@mail.ustc.edu.cn](mailto:ultrabioret@mail.ustc.edu.cn)
     - [郭雨轩](https://github.com/yuxguo) (SA21011004), 邮箱: [gyx_20170818@mail.ustc.edu.cn](mailto:gyx_20170818@mail.ustc.edu.cn)
     - 周恩帅
 - 上课时间: 
