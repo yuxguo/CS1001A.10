@@ -1,0 +1,15 @@
+---
+main:
+  - name: 作业
+    ref: "/homework/_index.md"
+    sub:
+      - name: 作业01 (2021.09.29)
+        ref: "/homework/hw01.md"
+        icon: "gdoc_timer"
+  - name: 实验
+    ref: "/expriment/_index.md"
+    sub:
+      - name: 实验01 (2021.09.29)
+        ref: "/expriment/exp01.md"
+        icon: "gdoc_timer"
+      

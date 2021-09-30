@@ -1,5 +1,5 @@
 baseURL = "http://localhost"
-title = "Geekdocs"
+title = "CS1001A.10 课程主页"
 theme = "hugo-geekdoc"
 
 # Required to get well formatted code blocks
@@ -30,7 +30,7 @@ enableRobotsTXT = true
 
   # (Optional, default static/brand.svg) Set the path to a logo for the Geekdoc
   # relative to your 'static/' folder.
-  geekdocLogo = "logo.png"
+  geekdocLogo = "ustc-logo.jpeg"
 
   # (Optional, default false) Render menu from data file im 'data/menu/main.yaml'.
   geekdocMenuBundle = true
@@ -41,20 +41,20 @@ enableRobotsTXT = true
 
   # (Optional, default true) Show a breadcrumb navigation bar at the top of each docs page.
   # You can also specify this parameter per page in front matter.
-  geekdocBreadcrumb = false
+  geekdocBreadcrumb = true
 
   # (Optional, default none) Set source repository location. Used for 'Edit this page' links.
   # You can also specify this parameter per page in front matter.
-  geekdocRepo = "https://github.com/thegeeklab/hugo"
+  geekdocRepo = "https://github.com/yuxguo/CS1001A.10/"
 
   # (Optional, default none) Enable 'Edit this page' links. Requires 'GeekdocRepo' param
   # and path must point to 'content' directory of repo.
   # You can also specify this parameter per page in front matter.
-  geekdocEditPath = "edit/main/exampleSite/content"
+  geekdocEditPath = "CS1001A.10/content/"
 
   # (Optional, default true) Enables search function with flexsearch.
   # Index is built on the fly and might slowdown your website.
-  geekdocSearch = false
+  geekdocSearch = true
 
   # (Optional, default false) Display search results with the parent folder as prefix. This
   # option allows you to distinguish between files with the same name in different folders.
@@ -63,11 +63,11 @@ enableRobotsTXT = true
 
   # (Optional, default none) Add a link to your Legal Notice page to the site footer.
   # It can be either a remote url or a local file path relative to your content directory.
-  geekdocLegalNotice = "https://blog.example.com/legal"
+  geekdocLegalNotice = ""
 
   # (Optional, default none) Add a link to your Privacy Policy page to the site footer.
   # It can be either a remote url or a local file path relative to your content directory.
-  geekdocPrivacyPolicy = "/privacy"
+  geekdocPrivacyPolicy = ""
 
   # (Optional, default true) Add an anchor link to headlines.
   geekdocAnchor = true
