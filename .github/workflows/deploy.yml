@@ -21,7 +21,7 @@ jobs:
           # extended: true
 
       - name: build
-        run: cd ./CS1001A.10/ && hugo --minify && cd public/
+        run: cd ./CS1001A.10/ && hugo --minify
 
       - name: sync
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
@@ -29,7 +29,7 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./
+          local-dir: ./CS1001A.10/public/
           server-dir: public_html/CS1001A.10/
 
       
