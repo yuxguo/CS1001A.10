@@ -1,6 +1,5 @@
 ---
-title: 实验
+title: 作业01
 geekdocCollapseSection: true
-# geekdocFlatSection: true
 ---
 {{<toc-tree>}}

@@ -1,15 +1,34 @@
 ---
 main:
   - name: 作业
-    ref: "/homework/_index.md"
+    ref: "/homework"
     sub:
       - name: 作业01 (2021.09.29)
-        ref: "/homework/hw01.md"
+        ref: "/homework/hw01"
         icon: "gdoc_timer"
+        sub:
+          - name: 问题
+            ref: "/homework/hw01/question"
+          - name: 答案
+            ref: "/homework/hw01/answer"
+
   - name: 实验
-    ref: "/expriment/_index.md"
-    sub:
+    ref: "/expriment"
+    sub: 
       - name: 实验01 (2021.09.29)
-        ref: "/expriment/exp01.md"
+        ref: "/expriment/exp01"
         icon: "gdoc_timer"
+        sub: 
+          - name: 问题
+            ref: "/expriment/exp01/question"
+          - name: 答案
+            ref: "/expriment/exp01/answer"
+      
+  - name: 其他材料
+    sub: 
+      - name: 在自己的电脑上搭建实验环境
+        
+      - name: 实验报告模板
+        ref: "/other-meterials/expriment-report-template"
+      
       

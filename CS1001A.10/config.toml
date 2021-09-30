@@ -1,6 +1,7 @@
 baseURL = "http://localhost"
 title = "CS1001A.10 课程主页"
 theme = "hugo-geekdoc"
+pluralizeListTitles = false
 
 # Required to get well formatted code blocks
 pygmentsUseClasses = true
@@ -26,7 +27,7 @@ enableRobotsTXT = true
   # (Optional, default 6) Set how many table of contents levels to be showed on page.
   # Use false to hide ToC, note that 0 will default to 6 (https://gohugo.io/functions/default/)
   # You can also specify this parameter per page in front matter.
-  geekdocToC = 3
+  geekdocToC = 4
 
   # (Optional, default static/brand.svg) Set the path to a logo for the Geekdoc
   # relative to your 'static/' folder.
@@ -93,3 +94,4 @@ enableRobotsTXT = true
 
   # (Optional, default false) Enable or disable adding tags for post pages automatically to the navigation sidebar.
   geekdocTagsToMenu = true
+
