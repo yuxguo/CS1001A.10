@@ -21,11 +21,10 @@ jobs:
           # extended: true
 
       - name: build
-        run: cd ./CS1001A.10/ && hugo --minify
+        run: cd ./CS1001A.10/ && hugo --minify && ls
 
       - name: sync
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
-        run: ls
         with: 
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
