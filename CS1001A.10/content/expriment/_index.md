@@ -1,6 +1,5 @@
 ---
 title: 实验
 geekdocCollapseSection: true
-# geekdocFlatSection: true
 ---
 {{<toc-tree>}}

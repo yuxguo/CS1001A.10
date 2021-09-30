@@ -25,10 +25,13 @@ main:
             ref: "/expriment/exp01/answer"
       
   - name: 其他材料
+    ref: "/other-meterials"
     sub: 
       - name: 在自己的电脑上搭建实验环境
-        
+        ref: "/other-meterials/environment"
+        sub: 
+          - name: 在MacOS上搭建C/C++环境
+            ref: "/other-meterials/environment/mac"
       - name: 实验报告模板
         ref: "/other-meterials/expriment-report-template"
-      
       
