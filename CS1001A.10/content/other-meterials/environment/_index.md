@@ -1,5 +1,5 @@
 ---
-title: "在自己的电脑上搭建C/C++环境"
+title: "在本地电脑上搭建C/C++环境"
 geekdocCollapseSection: true
 ---
 
