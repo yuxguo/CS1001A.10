@@ -21,7 +21,7 @@ jobs:
           # extended: true
 
       - name: build
-        run: hugo --minify
+        run: cd ./CS1001A.10/ && hugo --minify
 
       - name: sync
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
