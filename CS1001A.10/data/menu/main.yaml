@@ -36,4 +36,6 @@ main:
             ref: "/other-meterials/environment/windows"
       - name: 实验报告模板
         ref: "/other-meterials/expriment-report-template"
+      - name: BB系统使用说明
+        ref: "/other-meterials/bb-system-usage"
       
