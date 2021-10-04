@@ -1,4 +1,4 @@
-baseURL = "http://home.ustc.edu.cn/~gyx_20170818/CS1001A.10"
+baseURL = "http://home.ustc.edu.cn/~gyx_20170818/CS1001A.10/"
 title = "CS1001A.10 课程主页"
 theme = "hugo-geekdoc"
 pluralizeListTitles = false
