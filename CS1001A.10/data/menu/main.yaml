@@ -6,11 +6,6 @@ main:
       - name: 作业01 (2021.09.29)
         ref: "/homework/hw01"
         icon: "gdoc_timer"
-        sub:
-          - name: 问题
-            ref: "/homework/hw01/question"
-          - name: 答案
-            ref: "/homework/hw01/answer"
 
   - name: 实验
     ref: "/expriment"
@@ -18,11 +13,6 @@ main:
       - name: 实验01 (2021.09.29)
         ref: "/expriment/exp01"
         icon: "gdoc_timer"
-        sub: 
-          - name: 问题
-            ref: "/expriment/exp01/question"
-          - name: 答案
-            ref: "/expriment/exp01/answer"
       
   - name: 其他材料
     ref: "/other-meterials"
