@@ -38,7 +38,7 @@ MinGW-w64 的代码文件被托管于[SourceForge](https://sourceforge.net/proje
 
 接下来打开命令提示符或 Powershell 终端，输入`gcc -v`，如果前述步骤正确，会有一段以 GCC 当前版本结尾的信息输出，证明我们的安装成功。
 
-![0-version](/~gyx_20170818/CS1001A.10/Windows/VSCode/0-version.png)
+![0-version](Windows/VSCode/0-version.png)
 
 ### 在VSCode中调试运行C/C++文件
 
@@ -47,9 +47,9 @@ MinGW-w64 的代码文件被托管于[SourceForge](https://sourceforge.net/proje
 在工作目录下右键，点击“通过 Code 打开”，点击最左侧的“拓展”选项卡，搜索安装如下拓展：
 
 - Chinese (Simplified) Language Pack for Visual Studio Code
-![2-Chinese](/~gyx_20170818/CS1001A.10/Windows/VSCode/2-Chinese.png)
+![2-Chinese](Windows/VSCode/2-Chinese.png)
 - C/C++
-![3-C++](/~gyx_20170818/CS1001A.10/Windows/VSCode/3-C++.png)
+![3-C++](Windows/VSCode/3-C++.png)
 
 #### 测试运行
 
@@ -69,12 +69,12 @@ int main()
 点击`F5`并依次选择：
 
 - 环境：C++(GDB/LLDB)
-![4-run](/~gyx_20170818/CS1001A.10/Windows/VSCode/4-run.png)
+![4-run](Windows/VSCode/4-run.png)
 - 配置：g++.exe - 生成和调试活动文件 编译器：D:\mingw64\bin\g++.exe
-![5-run](/~gyx_20170818/CS1001A.10/Windows/VSCode/5-run.png)
+![5-run](Windows/VSCode/5-run.png)
 
 首次调试运行，VSCode 会自动生成相应的配置文件`.vscode\task.json`与`.vscode\launch.json`，并编译运行程序，运行结果将出现在终端选项卡中。
-![6-finish](/~gyx_20170818/CS1001A.10/Windows/VSCode/6-finish.png)
+![6-finish](Windows/VSCode/6-finish.png)
 
 此后的程序运行只需要点击`F5`即可。
 
@@ -103,39 +103,39 @@ Visual Studio 简称 VS，是微软公司的开发工具包系列产品。VS 是
 - 选择 Visual Studio 2019 Community 社区版
 
 - 在工作负荷中勾选“使用 C++ 的桌面开发”
-![0-install](/~gyx_20170818/CS1001A.10/Windows/VS/0-install.png)
+![0-install](Windows/VS/0-install.png)
 
 - 在语言包中勾选“中文(简体)”
-![1-language](/~gyx_20170818/CS1001A.10/Windows/VS/1-language.png)
+![1-language](Windows/VS/1-language.png)
 
 - 在安装位置中确认安装路径，且不要包括中文（请养成软件路径中不包括中文的好习惯）
-![2-path](/~gyx_20170818/CS1001A.10/Windows/VS/2-path.png)
+![2-path](Windows/VS/2-path.png)
 
 - 开始安装
 
 ### 测试运行
 
 - 打开 Visual Studio 2019 Community 社区版
-![3-opening](/~gyx_20170818/CS1001A.10/Windows/VS/3-opening.png)
+![3-opening](Windows/VS/3-opening.png)
 
 - 在启动器中点击“创建新项目”
-![4-launcher](/~gyx_20170818/CS1001A.10/Windows/VS/4-launcher.png)
+![4-launcher](Windows/VS/4-launcher.png)
 
 - 依次选择“语言：C++”、“平台：Windows”，点选“控制台应用”
-![5-new-project](/~gyx_20170818/CS1001A.10/Windows/VS/5-new-project.png)
+![5-new-project](Windows/VS/5-new-project.png)
 > 注意：如果需要创建C语言项目，并尽可能减少C++相关依赖，那么点选“空项目”，并在之后手动修改源文件后缀名为`.c`
 
 - 在配置新项目的界面中输入项目名称与位置，并勾选“将解决方案和项目放在同一目录中”
-![6-creating](/~gyx_20170818/CS1001A.10/Windows/VS/6-creating.png)
+![6-creating](Windows/VS/6-creating.png)
 
 - 在主界面中依次点击“调试”->“开始调试
-![8-debug](/~gyx_20170818/CS1001A.10/Windows/VS/8-debug.png)
+![8-debug](Windows/VS/8-debug.png)
 
 - 在弹出的终端中查看输出
-![9-debug-result](/~gyx_20170818/CS1001A.10/Windows/VS/9-debug-result.png)
+![9-debug-result](Windows/VS/9-debug-result.png)
 > 注意：默认情况下调试结束后控制台终端会自动关闭，导致结果一闪而过。如果发生这种现象，那么取消“工具”->“选项”->“调试”->“调试停止时自动关闭控制台”。或者点击“调试”->“开始执行(不调试)”
-![run](/~gyx_20170818/CS1001A.10/Windows/VS/run.png)
-![result](/~gyx_20170818/CS1001A.10/Windows/VS/result.png)
+![run](Windows/VS/run.png)
+![result](Windows/VS/result.png)
 
 ### Visual Studio 工作环境简介
 
