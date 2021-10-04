@@ -19,11 +19,6 @@ main:
     sub: 
       - name: 在本地电脑上搭建实验环境
         ref: "/other-meterials/environment"
-        sub: 
-          - name: 在MacOS上搭建C/C++环境
-            ref: "/other-meterials/environment/mac"
-          - name: 在Windows上搭建C/C++环境
-            ref: "/other-meterials/environment/windows"
       - name: 实验报告模板
         ref: "/other-meterials/expriment-report-template"
       - name: BB系统使用说明
