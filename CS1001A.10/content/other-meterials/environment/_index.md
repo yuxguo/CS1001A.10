@@ -1,6 +1,6 @@
 ---
 title: "在本地电脑上搭建C/C++环境"
-geekdocCollapseSection: true
+geekdocFlatSection: true
 ---
 
 {{<toc-tree>}}
