@@ -25,4 +25,5 @@ main:
         ref: "/other-meterials/expriment-report-template"
       - name: BB系统使用说明
         ref: "/other-meterials/bb-system-usage"
-      
+      - name: C/C++代码规范
+        ref: "/other-meterials/c-c++-code-style-guide"
