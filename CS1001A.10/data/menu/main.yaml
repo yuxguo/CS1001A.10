@@ -12,7 +12,6 @@ main:
     sub: 
       - name: 实验01 (2021.09.29)
         ref: "/expriment/exp01"
-        icon: "gdoc_timer"
       - name: 实验02 (2021.10.13)
         ref: "/expriment/exp02"
         icon: "gdoc_timer"
@@ -26,4 +25,5 @@ main:
         ref: "/other-meterials/expriment-report-template"
       - name: BB系统使用说明
         ref: "/other-meterials/bb-system-usage"
-      
+      - name: C/C++代码规范
+        ref: "/other-meterials/c-c++-code-style-guide"
