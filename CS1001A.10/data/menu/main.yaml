@@ -27,3 +27,5 @@ main:
         ref: "/other-meterials/bb-system-usage"
       - name: C/C++代码规范
         ref: "/other-meterials/c-c++-code-style-guide"
+      - name: Markdown使用指南
+        ref: "/other-meterials/markdown-guide"
