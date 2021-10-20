@@ -14,6 +14,8 @@ main:
         ref: "/expriment/exp01"
       - name: 实验02 (2021.10.13)
         ref: "/expriment/exp02"
+      - name: 实验03 (2021.10.20)
+        ref: "/expriment/exp03"
         icon: "gdoc_timer"
       
   - name: 其他材料
