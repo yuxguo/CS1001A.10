@@ -17,6 +17,11 @@ main:
       - name: 实验03 (2021.10.20)
         ref: "/expriment/exp03"
         icon: "gdoc_timer"
+  - name: 习题课
+    ref: "/xtk"
+    sub:
+      - name: 习题课01 (2021.10.19)
+        ref: "/xtk/xtk01"
       
   - name: 其他材料
     ref: "/other-meterials"
