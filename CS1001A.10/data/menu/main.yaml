@@ -6,6 +6,9 @@ main:
       - name: 作业01 (2021.09.29)
         ref: "/homework/hw01"
         icon: "gdoc_timer"
+      - name: 作业02 (2021.10.27)
+        ref: "/homework/hw02"
+        icon: "gdoc_timer"
 
   - name: 实验
     ref: "/expriment"
