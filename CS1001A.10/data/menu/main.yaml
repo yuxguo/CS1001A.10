@@ -22,7 +22,7 @@ main:
       - name: 实验04 (2021.10.27)
         ref: "/expriment/exp04"
       - name: 实验05 (2021.11.3)
-        ref: "/expriment/exp04"
+        ref: "/expriment/exp05"
         icon: "gdoc_timer"
 
   - name: 习题课
