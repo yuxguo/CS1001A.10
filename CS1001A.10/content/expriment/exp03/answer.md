@@ -13,6 +13,7 @@ title: "答案"
 void sort3(float *);
 int triangle_type(float *);
 float triangle_area(float *);
+int feq(float, float);
 
 int main(void) {
     float line[3];
@@ -30,6 +31,11 @@ int main(void) {
     printf("%d, %f", type, area);
     return 0;
 }
+
+int feq(float a, float b) {
+    return fabs(a - b) < EPS;
+}
+
 void sort3(float *line) {
     float tmp;
     for (int i = 0; i < 3; ++i) {
@@ -46,9 +52,9 @@ int triangle_type(float *line) {
     if (!(line[0] + line[1] > line[2])) {
         return 0; // 不构成三角形
     } else {
-        if ((line[0] == line[1]) && (line[1] == line[2])) {
+        if (feq(line[0], line[1]) && (feq(line[2], line[1])) {
             return 1; // 等边
-        } else if ((line[0] == line[1]) || (line[1] == line[2])) {
+        } else if (feq(line[0], line[1]) || (feq(line[2], line[1])) {
             return 2; // 等腰
         } else if (fabs(line[2] * line[2] - line[1] * line[1] - line[0] * line[0]) < EPS) {
             return 3; // 直角
