@@ -34,6 +34,8 @@ main:
     sub:
       - name: 习题课01 (2021.10.19)
         ref: "/xtk/xtk01"
+      - name: 习题课02 (2021.11.23)
+        ref: "/xtk/xtk02"
       
   - name: 其他材料
     ref: "/other-meterials"
