@@ -30,6 +30,9 @@ main:
       - name: 实验08 (2021.11.24)
         ref: "/expriment/exp08"
         icon: "gdoc_timer"
+      - name: 实验09 (2021.12.08)
+        ref: "expriment/exp09"
+        icon: "gdoc_timer"
 
   - name: 习题课
     ref: "/xtk"
