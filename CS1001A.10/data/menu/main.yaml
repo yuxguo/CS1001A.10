@@ -5,10 +5,10 @@ main:
     sub:
       - name: 作业01 (2021.09.29)
         ref: "/homework/hw01"
-        icon: "gdoc_timer"
       - name: 作业02 (2021.10.27)
         ref: "/homework/hw02"
-        icon: "gdoc_timer"
+      - name: 作业03 (2021.11.29)
+        ref: "/homework/hw03"
 
   - name: 实验
     ref: "/expriment"
@@ -29,10 +29,11 @@ main:
         ref: "/expriment/exp07"
       - name: 实验08 (2021.11.24)
         ref: "/expriment/exp08"
-        icon: "gdoc_timer"
       - name: 实验09 (2021.12.08)
         ref: "expriment/exp09"
         icon: "gdoc_timer"
+      - name: 实验10 (2021.12.15)
+        ref: "expriment/exp10"
 
   - name: 习题课
     ref: "/xtk"
